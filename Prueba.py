@@ -43,14 +43,18 @@
 
 
 Ingresos=int(input("Agrege sus ingresos: "))
+print("")
 print("Ingrese su nivel de educacion: ")
-print("Nivel de educacion")
 print("1. Basica")
 print("2. Media")
 print("3. Superior")
-Educacion=int(input())
+Educacion=int(input("Seleccione una opcion: "))
 
-nacionalidad=input("Ingrese su nacionalidad (Chilena / Otra): ")
+print("")
+print("Ingrese su nacionalidad: ") 
+print("1. Chilena")
+print("2. Otra")
+nacionalidad=int(input("Seleccione una opcion: "))
 credito=0
 
 if Ingresos>500000 and Ingresos<1000000:
@@ -71,12 +75,13 @@ elif Educacion==3:
 else:
     print("")
 
-if nacionalidad=="Chilena":
+if nacionalidad==1:
     credito=credito+300000
 
 else:
     print("No tiene bono por nacionalidad")
 
-print("El credito al cual usted puede acceder es:", credito)
+print("")
+print("El credito al cual usted puede acceder es:", credito, "pesos")
 
 
