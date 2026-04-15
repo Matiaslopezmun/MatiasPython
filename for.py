@@ -71,8 +71,3 @@
 # Pida la cantida de alumnos
 # Pida cada cantidad de notas x alumno
 # Saque el promedio y muestre si aprueba o no
-
-# alumnos=int(input("Ingrese la cantidad de alumnos: "))
-# cantidad=0
-# notas=0
-
