@@ -1,4 +1,4 @@
-# # Creando variables
+############ CLIMA ############
 
 # titulo="Clima de hoy" # String
 # diaDelMes=13 # Int
@@ -15,6 +15,9 @@
 # else:
 #     print("Puede llevar polera sin mangas")
 
+
+
+############ PASSWORD ############
 
 # pedir password y pin
 # pida al usuario password en palabra que debe ser "temu"
@@ -40,48 +43,48 @@
 
 
 
+############ CREDITOS ############
 
+# Ingresos=int(input("Agrege sus ingresos: "))
+# print("")
+# print("Ingrese su nivel de educacion: ")
+# print("1. Basica")
+# print("2. Media")
+# print("3. Superior")
+# Educacion=int(input("Seleccione una opcion: "))
 
-Ingresos=int(input("Agrege sus ingresos: "))
-print("")
-print("Ingrese su nivel de educacion: ")
-print("1. Basica")
-print("2. Media")
-print("3. Superior")
-Educacion=int(input("Seleccione una opcion: "))
+# print("")
+# print("Ingrese su nacionalidad: ") 
+# print("1. Chilena")
+# print("2. Otra")
+# nacionalidad=int(input("Seleccione una opcion: "))
+# credito=0
 
-print("")
-print("Ingrese su nacionalidad: ") 
-print("1. Chilena")
-print("2. Otra")
-nacionalidad=int(input("Seleccione una opcion: "))
-credito=0
+# if Ingresos>500000 and Ingresos<1000000:
+#     credito=credito+300000
+# elif Ingresos>1000000 and Ingresos<1500000:
+#     credito=credito+650000
+# elif Ingresos>1500001:
+#     credito=credito+1000000
+# else:
+#     print("Usted no es apto para ningun credito")
 
-if Ingresos>500000 and Ingresos<1000000:
-    credito=credito+300000
-elif Ingresos>1000000 and Ingresos<1500000:
-    credito=credito+650000
-elif Ingresos>1500001:
-    credito=credito+1000000
-else:
-    print("Usted no es apto para ningun credito")
+# if Educacion==1:
+#     credito=credito*1
+# elif Educacion==2:
+#     credito=credito*1.3
+# elif Educacion==3:
+#     credito=credito*1.5
+# else:
+#     print("")
 
-if Educacion==1:
-    credito=credito*1
-elif Educacion==2:
-    credito=credito*1.3
-elif Educacion==3:
-    credito=credito*1.5
-else:
-    print("")
+# if nacionalidad==1:
+#     credito=credito+300000
 
-if nacionalidad==1:
-    credito=credito+300000
+# else:
+#     print("No tiene bono por nacionalidad")
 
-else:
-    print("No tiene bono por nacionalidad")
-
-print("")
-print("El credito al cual usted puede acceder es:", credito, "pesos")
+# print("")
+# print("El credito al cual usted puede acceder es:", credito, "pesos")
 
 
