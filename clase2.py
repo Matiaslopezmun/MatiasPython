@@ -37,19 +37,19 @@
 # Calulcar el promedio de todas las notas
 # Mostrar si aprueba o no
 
-# notas=int(input("Ingrese la cantidad de notas: "))
-# suma=0
+notas=int(input("Ingrese la cantidad de notas: "))
+suma=0
 
-# for i in range(notas):
-#     n=float(input("Ingrese su nota: "))
-#     suma=suma+n
-#     prom=suma/notas
+for i in range(notas):
+    n=float(input(f"Ingrese la nota: "), i+1)
+    suma=suma+n
+    prom=suma/notas
 
-#     if prom>4:
-#         print("Usted apruba y su promedio es: ",prom)
+    if prom>4:
+        print("Usted apruba y su promedio es: ",prom)
 
-#     else:
-#         print("Usted a reprobado y su promedio es: ", prom)
+    else:
+        print("Usted a reprobado y su promedio es: ", prom)
 
 
 # nombre=input("ingrese su nombre: ")
